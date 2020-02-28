@@ -42,7 +42,7 @@ class TimeUntil extends React.Component {
                     Event starts in
                 </div>
                 <div className="countdown_bottom">
-                    <div classname="countdown_item">
+                    <div className="countdown_item">
                         <div className="countdown_time">
                             {this.state.days}
                         </div>
@@ -50,7 +50,7 @@ class TimeUntil extends React.Component {
                             Days
                         </div>
                     </div>
-                    <div classname="countdown_item">
+                    <div className="countdown_item">
                         <div className="countdown_time">
                             {this.state.hours}
                         </div>
@@ -58,7 +58,7 @@ class TimeUntil extends React.Component {
                             Hs
                         </div>
                     </div>
-                    <div classname="countdown_item">
+                    <div className="countdown_item">
                         <div className="countdown_time">
                             {this.state.minutes}
                         </div>
@@ -66,7 +66,7 @@ class TimeUntil extends React.Component {
                             Min
                         </div>
                     </div>
-                    <div classname="countdown_item">
+                    <div className="countdown_item">
                         <div className="countdown_time">
                             {this.state.seconds}
                         </div>
